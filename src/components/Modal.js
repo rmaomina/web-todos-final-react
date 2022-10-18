@@ -5,9 +5,7 @@ function Modal({closeModal}) {
 		<div className="modal">
 			<div className="modal__dimmed" onClick={closeModal}></div>
 			<div className="modal__container">
-				<button className="modal__button-left" data-dir="left">
-					<i className="fa-solid fa-chevron-left"></i>
-				</button>
+				<button className="modal__button-left" data-dir="left">L</button>
 				<div className="modal__panel">
 					<h1 className="title">
 						<i className="fa-solid fa-square-full"></i>
@@ -42,9 +40,7 @@ function Modal({closeModal}) {
 						<p className="">copyright ⓒ 2022 Mina Kim, All Rights Reserved </p>
 					</div>
 				</div>
-				<button className="modal__button-right" data-dir="right">
-					<i class="fa-solid fa-chevron-right"></i>
-				</button>
+				<button className="modal__button-right" data-dir="right">R</button>
 			</div>
 		</div>
 	)

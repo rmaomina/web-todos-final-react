@@ -1,4 +1,3 @@
-
 import React, { Suspense, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import useFetch from './util/useFetch'
@@ -11,24 +10,26 @@ const Modal = React.lazy(() => import('./components/Modal'))
 
 function App() {
 	const [todos, isPending, error] = useFetch('http://localhost:3001/todos/')
-  const [isModalShow, setIsModalShow] = useState(false);
+	const [isModalShow, setIsModalShow] = useState(false)
 
-  const handleClickModal = () => {
-    setIsModalShow(true)
-  }
+	const handleClickModal = () => {
+		setIsModalShow(true)
+	}
 
-  const closeModal = () => {
-    setIsModalShow(false)
-  }
+	const closeModal = () => {
+		setIsModalShow(false)
+	}
 
 	return (
 		<BrowserRouter>
-    { error && <div>{ error }</div>}
+			{error && <div>{error}</div>}
 			<Suspense fallback={<Loading />}>
-				<div className="App">
-					<Header handleClickModal={handleClickModal}/>
+				<div className="app">
+					<Header handleClickModal={handleClickModal} />
 					<main>
-						<Todos todos={todos} isPending={isPending} />
+						<Routes>
+							<Route exant path="/" element={<Todos todos={todos} isPending={isPending} />} />
+						</Routes>
 					</main>
 					<div className="shapes" aria-hidden="true">
 						<div className="circle1"></div>
@@ -38,7 +39,7 @@ function App() {
 						<div className="triangle1"></div>
 						<div className="triangle2"></div>
 					</div>
-					{isModalShow && <Modal closeModal={closeModal}/>}
+					{isModalShow && <Modal closeModal={closeModal} />}
 				</div>
 			</Suspense>
 		</BrowserRouter>

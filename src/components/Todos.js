@@ -13,7 +13,6 @@ function Todos({todos, isPending}) {
 
   const submitTodoItem = (e) => {
     e.preventDefault()
-    debugger
     if (todoText !== '') {
   
       const fetchData = { 
