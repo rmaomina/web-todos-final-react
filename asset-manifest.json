@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/web-todos-final-react/static/css/main.073c9b0a.css",
-    "main.js": "/web-todos-final-react/static/js/main.0747f4b6.js",
+    "main.css": "/web-todos-final-react/static/css/main.446619f1.css",
+    "main.js": "/web-todos-final-react/static/js/main.297ee918.js",
+    "static/css/994.1b4f6d51.chunk.css": "/web-todos-final-react/static/css/994.1b4f6d51.chunk.css",
+    "static/js/994.b73d37d4.chunk.js": "/web-todos-final-react/static/js/994.b73d37d4.chunk.js",
+    "static/css/387.ad05ee4c.chunk.css": "/web-todos-final-react/static/css/387.ad05ee4c.chunk.css",
+    "static/js/387.9ca5c787.chunk.js": "/web-todos-final-react/static/js/387.9ca5c787.chunk.js",
+    "static/js/388.8db486f9.chunk.js": "/web-todos-final-react/static/js/388.8db486f9.chunk.js",
+    "static/css/295.c83da862.chunk.css": "/web-todos-final-react/static/css/295.c83da862.chunk.css",
+    "static/js/295.6f428618.chunk.js": "/web-todos-final-react/static/js/295.6f428618.chunk.js",
     "static/js/787.883c9bb6.chunk.js": "/web-todos-final-react/static/js/787.883c9bb6.chunk.js",
-    "static/media/logo.svg": "/web-todos-final-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/web-todos-final-react/index.html",
-    "main.073c9b0a.css.map": "/web-todos-final-react/static/css/main.073c9b0a.css.map",
-    "main.0747f4b6.js.map": "/web-todos-final-react/static/js/main.0747f4b6.js.map",
+    "main.446619f1.css.map": "/web-todos-final-react/static/css/main.446619f1.css.map",
+    "main.297ee918.js.map": "/web-todos-final-react/static/js/main.297ee918.js.map",
+    "994.1b4f6d51.chunk.css.map": "/web-todos-final-react/static/css/994.1b4f6d51.chunk.css.map",
+    "994.b73d37d4.chunk.js.map": "/web-todos-final-react/static/js/994.b73d37d4.chunk.js.map",
+    "387.ad05ee4c.chunk.css.map": "/web-todos-final-react/static/css/387.ad05ee4c.chunk.css.map",
+    "387.9ca5c787.chunk.js.map": "/web-todos-final-react/static/js/387.9ca5c787.chunk.js.map",
+    "388.8db486f9.chunk.js.map": "/web-todos-final-react/static/js/388.8db486f9.chunk.js.map",
+    "295.c83da862.chunk.css.map": "/web-todos-final-react/static/css/295.c83da862.chunk.css.map",
+    "295.6f428618.chunk.js.map": "/web-todos-final-react/static/js/295.6f428618.chunk.js.map",
     "787.883c9bb6.chunk.js.map": "/web-todos-final-react/static/js/787.883c9bb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0747f4b6.js"
+    "static/css/main.446619f1.css",
+    "static/js/main.297ee918.js"
   ]
 }
