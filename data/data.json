@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "createAt": "2022-10-18",
+      "todo": "todo app 만들기",
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "createAt": "2022-10-18",
+      "todo": "todo app 만들기",
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "createAt": "2022-10-18",
+      "todo": "코드스테이츠 코플릿 19번",
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "createAt": "2022-10-18",
+      "todo": "실시간 세션 듣기",
+      "status": "done"
+    },
+    {
+      "createAt": "2022. 10. 18.",
+      "todo": "ddddd",
+      "status": "yet",
+      "id": 5
+    },
+    {
+      "createAt": "2022. 10. 18.",
+      "todo": "ddddd",
+      "status": "yet",
+      "id": 6
+    },
+    {
+      "createAt": "2022. 10. 18.",
+      "todo": "TODO app 만들기",
+      "status": "yet",
+      "id": 7
+    },
+    {
+      "createAt": "2022. 10. 18.",
+      "todo": "테스트 추가 ",
+      "status": "yet",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  font-family: var(--unique-font);
+}
+
+.header__title {
+  font-size: 2rem;
+}
+
+.info {
+  flex: 0 0 30px;
+}
+
+.info__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  margin-left: 10px;
+  border: 2px solid var(--main-font-color);
+  border-radius: 50%;
+  font-family: var(--unique-font);
+  font-size: 1.1rem;
+  color: var(--main-font-color);
+}
+
+.setting {
+  flex: 0 0 30px;
+}
+
+#sfx__button + label {
+  position: relative;
+  font-size: 1.3rem;
+  color: var(--main-font-color);
+}
+
+#sfx__button + label > i {
+  position: absolute;
+}
+
+#sfx__button[type="checkbox"] + label > i {
+  opacity: 0.4;
+}
+
+#sfx__button[type="checkbox"]:checked + label > i {
+  opacity: 1;
+}

@@ -1,0 +1,69 @@
+
+.todos {
+  max-width: 700px;
+  min-width: 400px;
+  background-color: #fff;
+  box-shadow: var(--default-shadow);
+  padding: 30px 30px 30px 40px;
+  border-radius: 12px;
+  opacity: 0.9;
+  color: var(--sub-font-color);
+}
+
+.todos__task {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todos__submit {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  border: 2px solid #121212;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.todos__task > input[type="text"] {
+  flex: 1 1 auto;
+  padding: 14px 0;
+  width: 100%;
+  border-bottom: 2px solid #121212;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.todos__list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.todos__list--item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.todos__list--item > input + label {
+  position: relative;
+  font-size: 1rem;
+  align-items: flex-start;
+}
+
+.todos__list--item > input + label span {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+}
+
+.todos__list--item > input:checked + label {
+  text-decoration: line-through;
+}
+
