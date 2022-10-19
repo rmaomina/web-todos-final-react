@@ -7,8 +7,8 @@ export const fetchCreate = (url, data) => {
     headers: {"Content-Type" : "application/json"},
     body: JSON.stringify(data)
   })
-  .then(() => {
-    // window.location.href = BASE_URL
+  .then((data) => {
+    window.location.reload()
   })
   .catch((err) => {
     console.log('Error', err)
@@ -20,7 +20,7 @@ export const fetchDelete = (url, id) => {
     method: "DELETE",
   })
   .then(() => {
-    // window.location.href = BASE_URL
+    window.location.reload()
   })
   .catch((err) => {
     console.log('Error', err)
@@ -34,7 +34,7 @@ export const fetchPatch = (url, id, data) => {
     body: JSON.stringify(data),
   })
   .then(() => {
-    // window.location.href = `${TODO_URL}${id}`;
+    window.location.reload()
   })
   .catch((err) => {
     console.log('Error', err)

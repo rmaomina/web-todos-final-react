@@ -28,12 +28,12 @@ function Todos({todos, isPending}) {
 
   const changeTodoStatus = (e) => {
     e.preventDefault()
-    if (!e.target.checked) {
+    if (e.target.checked) {
       let id = e.target.id
       const fetchData = {
         status: "done"
       }
-      fetchPatch('TODO_URL', id, fetchData)
+      fetchPatch(TODO_URL, id, fetchData)
     }
   }
 

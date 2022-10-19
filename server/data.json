@@ -25,40 +25,16 @@
       "status": "done"
     },
     {
-      "createAt": "2022. 10. 18.",
-      "todo": "ddddd",
-      "status": "yet",
+      "createAt": "2022. 10. 19.",
+      "todo": "실시간 세션 듣기 ",
+      "status": "done",
       "id": 5
     },
     {
-      "createAt": "2022. 10. 18.",
-      "todo": "ddddd",
+      "createAt": "2022. 10. 19.",
+      "todo": "밥먹기 ",
       "status": "yet",
       "id": 6
-    },
-    {
-      "createAt": "2022. 10. 18.",
-      "todo": "TODO app 만들기",
-      "status": "yet",
-      "id": 7
-    },
-    {
-      "createAt": "2022. 10. 18.",
-      "todo": "테스트 추가 ",
-      "status": "yet",
-      "id": 8
-    },
-    {
-      "createAt": "2022. 10. 19.",
-      "todo": "테스트세트스테스트 ",
-      "status": "yet",
-      "id": 9
-    },
-    {
-      "createAt": "2022. 10. 19.",
-      "todo": "adadf",
-      "status": "yet",
-      "id": 10
     }
   ]
 }
