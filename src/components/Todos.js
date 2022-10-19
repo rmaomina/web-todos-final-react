@@ -1,28 +1,28 @@
 import './todos.css'
 import { useState } from 'react';
 import Loading from './Loading'
-import { fetchCreate, fetchPatch } from '../util/api'
+import { fetchCreate, fetchPatch, TODO_URL } from '../util/api'
 
 function Todos({todos, isPending}) {
-  const [todoText, setTodoText] = useState('');
+  const [todoInput, setTodoInput] = useState('');
 
   const changeTodoText = (e) => {
     e.preventDefault()
-    setTodoText(e.target.value)
+    setTodoInput(e.target.value)
   }
 
   const submitTodoItem = (e) => {
     e.preventDefault()
-    if (todoText !== '') {
+    if (todoInput !== '') {
   
       const fetchData = { 
         createAt: new Date().toLocaleDateString(),
-        todo: todoText,
+        todo: todoInput,
         status: "yet" 
       }
   
-      fetchCreate('http://localhost:3001/todos/', fetchData)
-      setTodoText('')
+      fetchCreate(TODO_URL, fetchData)
+      setTodoInput('')
     }
   }
 
@@ -33,7 +33,7 @@ function Todos({todos, isPending}) {
       const fetchData = {
         status: "done"
       }
-      fetchPatch('http://localhost:3001/todos/', id, fetchData)
+      fetchPatch('TODO_URL', id, fetchData)
     }
   }
 

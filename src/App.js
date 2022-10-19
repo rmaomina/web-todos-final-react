@@ -9,7 +9,7 @@ const Loading = React.lazy(() => import('./components/Loading'))
 const Modal = React.lazy(() => import('./components/Modal'))
 
 function App() {
-	const [todos, isPending, error] = useFetch('http://localhost:3001/todos/')
+	const [todos, isPending, error] = useFetch('http://localhost:4000/todos/')
 	const [isModalShow, setIsModalShow] = useState(false)
 
 	const handleClickModal = () => {

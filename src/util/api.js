@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:3000'
-const TODO_URL = 'http://localhost:3000/todos/'
+
+export const TODO_URL = 'http://localhost:4000/todos/'
 
 export const fetchCreate = (url, data) => {
   fetch(url, {
@@ -8,7 +8,7 @@ export const fetchCreate = (url, data) => {
     body: JSON.stringify(data)
   })
   .then(() => {
-    window.location.href = BASE_URL
+    // window.location.href = BASE_URL
   })
   .catch((err) => {
     console.log('Error', err)
@@ -20,7 +20,7 @@ export const fetchDelete = (url, id) => {
     method: "DELETE",
   })
   .then(() => {
-    window.location.href = BASE_URL
+    // window.location.href = BASE_URL
   })
   .catch((err) => {
     console.log('Error', err)
@@ -34,7 +34,7 @@ export const fetchPatch = (url, id, data) => {
     body: JSON.stringify(data),
   })
   .then(() => {
-    window.location.href = `${TODO_URL}${id}`;
+    // window.location.href = `${TODO_URL}${id}`;
   })
   .catch((err) => {
     console.log('Error', err)
