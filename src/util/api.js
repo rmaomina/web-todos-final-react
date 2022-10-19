@@ -1,5 +1,5 @@
 
-export const TODO_URL = 'http://localhost:3001/todos/'
+export const TODO_URL = 'https://web-todos-final-react.herokuapp.com/todos/'
 
 export const fetchCreate = (url, data) => {
   fetch(url, {
